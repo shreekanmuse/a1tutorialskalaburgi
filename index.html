@@ -25,8 +25,7 @@
                     document.getElementById("dob").setAttribute("max", today);
                     });
                  </script>
-           <input list="class" name="class" placeholder="Enter Class" class ="contact-inputs" required>
-            <datalist="class">
+           <select id="class" name="class" placeholder="Enter Class" class ="contact-inputs" required>
            <option value="Nursery">Nursery</option>
            <option value="LKG">LKG</option>
            <option value="UKG">UKG</option>
@@ -41,7 +40,7 @@
            <option value="9">9</option>
            <option value="10">10</option>
            
-       </datalist>
+       </select>
            <input type="phone number" name="number" placeholder="Phone Number "class="contact-inputs" maxlength="10" requried> 
        <textarea name="address" placeholder="Student Address" class="contact-inputs" required></textarea>
        <button type ="submit"> Register</button>
