@@ -46,6 +46,10 @@ body{
 
 
 }
+.contact-inputs textarea::placeholder{
+    fontfamily:inherit;
+    font-size:14px;
+    color:#a9a9a9;
 .contact-left textarea{
     height: 150px;
     padding-top: 20px;
