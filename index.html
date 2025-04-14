@@ -16,29 +16,35 @@
         
            </div>  
            <input type="hidden" name="access_key" value="6db52dcc-5be4-48aa-9bd9-cf8dee7c96f3">
-           <input type="text" name="name" placeholder="Student Name "class="contact-inputs" requried> 
-           <input type="text" name="name" placeholder="Parent Name "class="contact-inputs" requried>
-           <input list="class-standards" name="class" placeholder="Enter Class" class ="contact-inputs" required>
-<datalist id="class-standards">
-    <option value="Nursery">
-    <option value="LKG">
-    <option value="UKG">
-    <option value="1">
-    <option value="2">
-    <option value="3">
-    <option value="4">
-    <option value="5">
-    <option value="6">
-    <option value="7">
-    <option value="8">
-    <option value="9">
-    <option value="10">
-    <option value="11">
-    <option value="12">
-</datalist>
-           <input type="phone number" name="number" placeholder="Phone Number "class="contact-inputs" requried> 
-       <textarea name="message" placeholder="Student Address" class="contact-inputs" required></textarea>
-       <button type ="submit"> register</button>
+           <input type="text" name="name" placeholder="Student Name "class="contact-inputs" pattern="[A-Za-z\s]+" maxlength="20" requried> 
+           <input type="text" name="name" placeholder="Parent Name "class="contact-inputs" pattern="[A-Za-z\s]+" maxlength="20" requried>
+           <input type ="date" name="dob" placeholder="Date of birth " class="contact-inputs" max="today's date" required >
+                 <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                    const today = new Date().toISOString().split("T")[0];
+                    document.getElementById("dob").setAttribute("max", today);
+                    });
+                 </script>
+       <select id ="class" name="class" placeholder="Enter Class" class ="contact-inputs" required>
+           <option value="Nursery">
+           <option value="LKG">
+           <option value="UKG">
+           <option value="1">
+           <option value="2">
+           <option value="3">
+           <option value="4">
+           <option value="5">
+           <option value="6">
+           <option value="7">
+           <option value="8">
+           <option value="9">
+           <option value="10">
+           <option value="11">
+           <option value="12">
+       </select>
+           <input type="phone number" name="number" placeholder="Phone Number "class="contact-inputs" maxlength="10" requried> 
+       <textarea name="address" placeholder="Student Address" class="contact-inputs" required></textarea>
+       <button type ="submit"> Register</button>
         </form>
         <div class="contact-right">
 <img src="a1 logo.jpg" alt="">
