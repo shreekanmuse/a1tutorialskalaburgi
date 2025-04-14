@@ -72,6 +72,11 @@ border-radius: 50px;
 background: linear-gradient(270deg #ff994f,#fa6d86);
 cursor: pointer;
 }
+.contact-left button:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1.5s;
+}
 .contact-right img{
     width: 1000px;
     height: auto;
