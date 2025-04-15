@@ -9,15 +9,15 @@ body{
 
 }
 .class-container{
-    padding:20px
+ 
     height: 100vh;
     display:flex;
     align-items:center;
     justify-content:center;
-    flex-direction:center;
+   
 }
 .contact-left{
-    display: flex;
+    display: flex
     flex-direction: column;
     align-items:start ;
     gap: 20px;
@@ -88,9 +88,7 @@ cursor: pointer;
     .contact-inputs{
         width:90%;
         max-width:40px;
-        margin:0 auto;
-        display:block;
-     
+      
     }
     .contact-right{
         display: none;
