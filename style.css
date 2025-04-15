@@ -84,11 +84,8 @@ cursor: pointer;
 @media(max-width:1000px)
 {
     .contact-inputs{
-        width: 90%;
-        max-width:400px;
-        margin:0;
-        display:block;
-
+        width:80vw;
+     
     }
     .contact-right{
         display: none;
