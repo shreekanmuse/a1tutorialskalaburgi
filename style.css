@@ -78,13 +78,16 @@ cursor: pointer;
     transition: 1s;
 }
 .contact-right :img{
-    width: 1000px;
+    width: 1200px;
     height: auto;
 }
 @media(max-width:1000px)
 {
     .contact-inputs{
-        width:80vw;
+        width:90%;
+        max-width:40px;
+        margin:0 auto;
+        display:block;
      
     }
     .contact-right{
