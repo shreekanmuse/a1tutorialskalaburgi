@@ -9,10 +9,12 @@ body{
 
 }
 .class-container{
+    padding:20px
     height: 100vh;
     display:flex;
     align-items:center;
-    justify-content: space-evenly;
+    justify-content:center;
+    flex-direction:center;
 }
 .contact-left{
     display: flex;
