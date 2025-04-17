@@ -84,7 +84,7 @@ cursor: pointer;
 @media(max-width:800px)
 {
     .contact-inputs{
-        width:80vw;
+        width:device-width;
       
     }
     .contact-right{
